@@ -1,11 +1,11 @@
 <?php 
    session_start();
    $path = $_SERVER['DOCUMENT_ROOT'];
-   $path .= "/timetable/header.php";
+   $path .= "/Time-Table-generator/TimeTable___Generator/header.php";
    include_once($path); 
 
    $path = $_SERVER['DOCUMENT_ROOT'];
-   $path .= "/timetable/class.ManageUsers.php";
+   $path .= "/Time-Table-generator/TimeTable___Generator/class.ManageUsers.php";
    include_once($path);
    
    $users = new ManageUsers();
@@ -87,6 +87,6 @@
 </body>
 <?php 
    $path = $_SERVER['DOCUMENT_ROOT'];
-   $path .= "/timetable/footer.php";
+   $path .= "/Time-Table-generator/TimeTable___Generator/footer.php";
    include_once($path);
 ?>
